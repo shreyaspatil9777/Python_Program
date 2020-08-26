@@ -122,12 +122,16 @@ def depositeAndWithdraw(num1,num2):
             if item.accountnumber ==num1:
                 if num2==1:
                     amount= int(input("Enter amount to deposite :"))
+                    
                     item.deposite += amount
                     print("account updated")
 
                 elif num2==2:
                     amount=int(input("Enter amount to withdraw :"))
                     item.deposite <= amount
+                    item.deposite -= amount
+                    
+                    
 
                 else:
                     print("please eneter mimum amount")
