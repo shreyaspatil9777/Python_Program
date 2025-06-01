@@ -1,2 +1,2 @@
 # Python_Program
- daily used pythoon programs
+ daily used python programs
